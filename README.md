@@ -8,12 +8,12 @@ initial setup
 
 First, setup [goenv](https://bitbucket.org/ymotongpoo/goenv). Then:
 
-    $ git clone --branch master --depth 1 https://github.com/MiCHiLU/go-scaffold.git
-    $ mkvirtualenv go-scaffold
-    (go-scaffold)$ goof make go-scaffold
-    (go:go-scaffold) (go-scaffold)$ echo 'goof go go1.6.3\nexport PATH="$GOBIN":"$GOROOT/bin":$PATH' >> activate
-    (go:go-scaffold) (go-scaffold)$ deactivate && goof workon go-scaffold
-    (go:go-scaffold) (go-scaffold)$ make setup
+    $ git clone --branch master --depth 1 https://github.com/MiCHiLU/THETAer.git
+    $ mkvirtualenv THETAer
+    (THETAer)$ goof make THETAer
+    (go:THETAer) (THETAer)$ echo 'goof go go1.6.3\nexport PATH="$GOBIN":"$GOROOT/bin":$PATH' >> activate
+    (go:THETAer) (THETAer)$ deactivate && goof workon THETAer
+    (go:THETAer) (THETAer)$ make setup
 
 ## Set up submodules
 
@@ -28,19 +28,19 @@ First, setup [goenv](https://bitbucket.org/ymotongpoo/goenv). Then:
 workon
 ------
 
-    $ workon go-scaffold
-    (go-scaffold)$ goof workon go-scaffold
-    (go:go-scaffold) (go-scaffold)$
+    $ workon THETAer
+    (THETAer)$ goof workon THETAer
+    (go:THETAer) (THETAer)$
 
 build and run
 -------------
 
-    $ make && ./bin/go-scaffold
-    go-scaffold 0.0.0.1 (fd79f0a+, Sep 05 05:21:18 2014, darwin/amd64)
+    $ make && ./bin/theta-er
+    theta-er 0.0.0.1 (fd79f0a+, Sep 05 05:21:18 2014, darwin/amd64)
     2014/09/05 13:21:22 Finished: 33.457us
 
-    $ LANG=ja ./bin/go-scaffold -h
-    Usage: ./bin/go-scaffold [options]
+    $ LANG=ja ./bin/theta-er -h
+    Usage: ./bin/theta-er [options]
 
       -i=0: インターバル
       -v=false: デバッグメッセージを表示する

@@ -17,7 +17,7 @@ import (
 	"time"
 
 	"github.com/samuel/go-gettext/gettext"
-	"go-scaffold/locale/ja"
+	"theta-er/locale/ja"
 )
 
 const (
