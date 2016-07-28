@@ -40,5 +40,5 @@ build and run
 dependencies
 ------------
 
-* go-bindata v2.0.4
-* pybabel
+* [go-bindata](https://github.com/jteeuwen/go-bindata) [v2.0.4](https://github.com/jteeuwen/go-bindata/releases/tag/2.0.4)
+* [pybabel](http://babel.pocoo.org/en/latest/cmdline.html)
