@@ -22,3 +22,13 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+
+*.mo
+*.mogo
+bin
+pkg
+src/*/locale/*/*.go
+src/*/locale/*go.pot
+src/bitbucket.org
+src/github.com
