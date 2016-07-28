@@ -1,7 +1,5 @@
-features
---------
-
-* i18n
+# THETAer
+An adjuster tool for videos taken by the RICHO THETA S.
 
 initial setup
 -------------
@@ -15,14 +13,8 @@ First, setup [goenv](https://bitbucket.org/ymotongpoo/goenv). Then:
     (go:THETAer) (THETAer)$ deactivate && goof workon THETAer
     (go:THETAer) (THETAer)$ make setup
 
-## Set up submodules
-
-    $ git submodule init
-    $ git submodule update
-
 ## Get go libraries
 
-    $ go get github.com/jteeuwen/go-bindata/...
     $ go get github.com/samuel/go-gettext
 
 workon
