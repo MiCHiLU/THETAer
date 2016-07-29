@@ -8,7 +8,7 @@ import (
 
 func GetProbe(filename string) (*ProbeData, error) {
 	// ffprobe R0000000_er.MP4 -show_format -print_format json
-	cmd := exec.Command("ffprobe", filename, "-show_format", "-print_format", "json")
+	cmd := exec.Command("ffprobe", filename, "-hide_banner", "-show_format", "-print_format", "json")
 	cmd.Stderr = os.Stderr
 
 	r, err := cmd.StdoutPipe()
