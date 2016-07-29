@@ -238,7 +238,9 @@ func process() {
 
 	var err error
 
-	AddWaitGroup(func() {})
+	AddWaitGroup(func() {
+		GetProbes()
+	})
 
 	if err != nil {
 		develop.Println(err)
