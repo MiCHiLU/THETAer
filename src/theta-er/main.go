@@ -239,7 +239,7 @@ func process() {
 	var err error
 
 	AddWaitGroup(func() {
-		GetProbes()
+		AdjustMetaData()
 	})
 
 	if err != nil {
