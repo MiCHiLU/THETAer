@@ -40,6 +40,7 @@ build and run
 dependencies
 ------------
 
+* [ffmpeg](https://ffmpeg.org/ffmpeg.html)
 * [ffprobe](https://www.ffmpeg.org/ffprobe.html)
 * [go-bindata](https://github.com/jteeuwen/go-bindata) [v2.0.4](https://github.com/jteeuwen/go-bindata/releases/tag/2.0.4)
 * [pybabel](http://babel.pocoo.org/en/latest/cmdline.html)
